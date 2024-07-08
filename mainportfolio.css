@@ -1,0 +1,135 @@
+h1 {
+    font-family: "Roboto";
+}
+
+h2 {
+    font-family: "Ubuntu";
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Montserrat";
+}
+
+h4{
+    font-family: "Montserrat";
+}
+
+h5 {
+    font-family: "Ubuntu";
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    font-family: "Montserrat";
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: "Montserrat";
+}
+
+
+#body {
+    font-family: "Montserrat";
+    padding: 5% 10%;
+}
+
+#text {
+    font-family: "Montserrat";
+    padding: 5% 10%;
+    justify-content: center;
+}
+
+#card-body {
+    justify-content: center;
+    justify-items: center;
+    text-justify: center;
+}
+
+#button {
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+#container {
+    margin-top: 50px;
+}
+
+/** about **/
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
+.text {
+    flex: 1;
+    min-width: 300px;
+    /* Ensure text has a minimum width */
+}
+
+.photo-container {
+    flex: 0 0 200px;
+    /* Adjust this width as needed */
+    margin-left: 20px;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+.image-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-center a {
+    margin: 0 10px;
+}
+
+.linkedin, .redbubble {
+    width: 75px;
+    height: auto;
+}
+
+.instagram {
+    width: 55px;
+    height: auto;
+}
+
+/* projectimg */
+
+.project {
+    padding: 60px 0;
+    
+}
+
+.project h4{
+    text-align: center;
+}
+
+.project p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.projectimg img {
+    width: 75%;
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensure images behave as block elements */
+    margin: 0 auto;
+    /* Center align images */
+}
